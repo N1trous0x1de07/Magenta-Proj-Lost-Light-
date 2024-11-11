@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://bn8lermlywrqf"]
+[gd_scene load_steps=16 format=3 uid="uid://bn8lermlywrqf"]
 
 [ext_resource type="Texture2D" uid="uid://b4j8hgftefxtg" path="res://Assets/Sprites/Animals/animals5.png" id="1_tyjb8"]
 
@@ -109,9 +109,16 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ao83m"]
+size = Vector2(107, 102)
+
 [node name="Node2D" type="Node2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_80tm6")
 animation = &"left"
 frame_progress = 0.170249
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-6.5, 13)
+shape = SubResource("RectangleShape2D_ao83m")

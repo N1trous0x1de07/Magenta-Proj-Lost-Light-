@@ -11,9 +11,11 @@ config_version=5
 [application]
 
 config/name="LostLight"
+run/main_scene="res://Scenes/GUI/main_menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
-[rendering]
+[display]
 
-textures/canvas_textures/default_texture_filter=0
+window/size/viewport_width=1920
+window/size/viewport_height=1080

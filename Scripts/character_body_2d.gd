@@ -39,10 +39,7 @@ func set_direction():
 	elif Input.is_action_pressed("ui_right"):
 		sprite.play("right")
 
-
-
-
-	if Input.is_action_pressed("ui_up"):
+	elif Input.is_action_pressed("ui_up"):
 		sprite.play("up")
 		
 	elif Input.is_action_pressed("ui_down"):

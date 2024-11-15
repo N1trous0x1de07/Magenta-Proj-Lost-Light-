@@ -18,13 +18,11 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yfm8t"]
-radius = 27.5041
-height = 86.8571
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mpad5"]
+size = Vector2(2.64463, 7.31429)
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3g3ok"]
-radius = 52.0
-height = 196.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cnano"]
+size = Vector2(24.25, 33)
 
 [node name="Old Man NPC" type="CharacterBody2D"]
 position = Vector2(504, 268)
@@ -32,21 +30,21 @@ script = ExtResource("1_si5ip")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(28.5, -38)
-scale = Vector2(1.89063, 2.1875)
+scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_6s375")
 animation = &"idle"
 frame_progress = 0.403146
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(28, -36)
+position = Vector2(29, -37)
 scale = Vector2(1.89063, 2.1875)
-shape = SubResource("CapsuleShape2D_yfm8t")
+shape = SubResource("RectangleShape2D_mpad5")
 
 [node name="chat_detection" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection"]
-position = Vector2(28, -36)
-shape = SubResource("CapsuleShape2D_3g3ok")
+position = Vector2(29, -37)
+shape = SubResource("RectangleShape2D_cnano")
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.145

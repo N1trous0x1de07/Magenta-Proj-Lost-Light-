@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://c7sajg53jewri"]
+[gd_scene load_steps=5 format=3 uid="uid://c7sajg53jewri"]
 
 [ext_resource type="Script" path="res://Scripts/GUI/main_menu.gd" id="1_b2jkr"]
+[ext_resource type="AudioStream" uid="uid://chubpaoowdt2q" path="res://Assets/Audio&SFX/abandoned_mp3_1.2/Storm - dark - heavy - lurking.mp3" id="2_q0an3"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bmpfq"]
 bg_color = Color(0.0678876, 0.0539872, 0.315609, 1)
@@ -79,5 +80,9 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_q2p7e")
 text = "Exit
 "
 
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_q0an3")
+
+[connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]

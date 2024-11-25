@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=3 uid="uid://byn62ykxnf3nf"]
 
-[ext_resource type="Texture2D" uid="uid://xdou37p46qhg" path="res://Assets/sprites/Old man_0.png" id="1_csgg6"]
-[ext_resource type="Script" path="res://Scripts/old_man_npc.gd" id="1_si5ip"]
+[ext_resource type="Script" path="res://Scripts/old_man_npc.gd" id="1_qwlo3"]
+[ext_resource type="Texture2D" uid="uid://xdou37p46qhg" path="res://Assets/sprites/Old man_0.png" id="2_drpha"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tqolt"]
-atlas = ExtResource("1_csgg6")
+atlas = ExtResource("2_drpha")
 region = Rect2(0, 0, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_6s375"]
@@ -26,7 +26,7 @@ size = Vector2(24.25, 33)
 
 [node name="Old Man NPC" type="CharacterBody2D"]
 position = Vector2(504, 268)
-script = ExtResource("1_si5ip")
+script = ExtResource("1_qwlo3")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(28.5, -38)

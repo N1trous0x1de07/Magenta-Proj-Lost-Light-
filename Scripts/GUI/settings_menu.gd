@@ -1,6 +1,5 @@
-extends Control
+extends HSlider 
 
-
-
-func _on_exit_button_pressed():
-	get_tree().change_scene_to_file("res://Scenes/GUI/main_menu.tscn")
+func _on_hslider_value_changed(value: float) -> void:
+	# Set the master bus volume in decibels
+	AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Master"), value)

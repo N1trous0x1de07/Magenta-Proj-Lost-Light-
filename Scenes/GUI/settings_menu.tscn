@@ -1,6 +1,18 @@
-[gd_scene load_steps=4 format=3 uid="uid://ccvvq7vmab8in"]
+[gd_scene load_steps=6 format=3 uid="uid://ccvvq7vmab8in"]
 
 [ext_resource type="Script" path="res://Scripts/GUI/settings_menu.gd" id="1_ao761"]
+
+[sub_resource type="Gradient" id="Gradient_uac1j"]
+offsets = PackedFloat32Array(0, 0.568027, 0.751701)
+colors = PackedColorArray(1, 1, 1, 1, 0.110512, 0.178411, 0.894154, 1, 0.146817, 0.211946, 0.898475, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_dhabq"]
+gradient = SubResource("Gradient_uac1j")
+width = 1920
+height = 1080
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+metadata/_snap_enabled = true
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5vkib"]
 bg_color = Color(0.0678876, 0.0539872, 0.315609, 1)
@@ -40,16 +52,56 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ao761")
 
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_dhabq")
+
 [node name="BackButton" type="Button" parent="."]
-layout_mode = 0
-offset_left = 1733.0
-offset_top = 991.0
-offset_right = 2141.0
-offset_bottom = 1234.0
-scale = Vector2(0.449989, 0.351218)
-theme_override_font_sizes/font_size = 176
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -245.0
+offset_top = -132.0
+offset_right = -5.0
+offset_bottom = -5.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 86
 theme_override_styles/hover = SubResource("StyleBoxFlat_5vkib")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5iuef")
 text = "Back"
 
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -300.0
+offset_right = 400.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Master"
+horizontal_alignment = 1
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer"]
+layout_mode = 2
+min_value = -80.0
+max_value = 0.0
+
 [connection signal="pressed" from="BackButton" to="." method="_on_exit_button_pressed"]
+[connection signal="value_changed" from="VBoxContainer/HSlider" to="." method="_on_h_slider_value_changed"]

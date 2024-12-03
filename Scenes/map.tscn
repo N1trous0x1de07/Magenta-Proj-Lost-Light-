@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=4 uid="uid://cbqpj1fykavlf"]
+[gd_scene load_steps=24 format=4 uid="uid://cbqpj1fykavlf"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_v1164"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_e5c5i"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/MainCharacter.tscn" id="10_7mgvd"]
 [ext_resource type="AudioStream" uid="uid://cr7g0u1hyuqxn" path="res://Assets/Audio&SFX/abandoned_mp3_1.2/Dawn - slow - scary.mp3" id="11_4dlru"]
 [ext_resource type="PackedScene" uid="uid://duo00rmppx2b1" path="res://Scenes/Old Man NPC.tscn" id="12_4fjxo"]
+[ext_resource type="PackedScene" uid="uid://dai2n1ckaoxx5" path="res://bald_man_npc.tscn" id="13_xx7wm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wst38"]
 resource_name = "Land/Water"
@@ -658,3 +659,7 @@ autoplay = true
 [node name="Old Man NPC" parent="." instance=ExtResource("12_4fjxo")]
 z_index = 2
 position = Vector2(482, -213)
+
+[node name="Bald Man NPC" parent="." instance=ExtResource("13_xx7wm")]
+z_index = 2
+position = Vector2(501, -148)

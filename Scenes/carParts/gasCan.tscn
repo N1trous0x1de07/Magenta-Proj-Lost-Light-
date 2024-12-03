@@ -7,6 +7,7 @@
 size = Vector2(42, 55)
 
 [node name="GasCan" type="Area2D"]
+scale = Vector2(0.25, 0.25)
 script = ExtResource("1_22nb8")
 
 [node name="Pixil-frame-0" type="Sprite2D" parent="."]
@@ -16,3 +17,5 @@ texture = ExtResource("1_2vrqc")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, -1.5)
 shape = SubResource("RectangleShape2D_77sel")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

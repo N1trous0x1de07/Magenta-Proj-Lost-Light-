@@ -660,5 +660,5 @@ autoplay = true
 
 [node name="Node2D" type="Node2D" parent="."]
 
-[node name="Sprite2D" parent="." instance=ExtResource("12_j5nsr")]
-position = Vector2(270, -19)
+[node name="GasCan" parent="." instance=ExtResource("12_j5nsr")]
+position = Vector2(474, -114)

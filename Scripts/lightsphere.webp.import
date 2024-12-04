@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddtnuuss3w2y2"
-path="res://.godot/imported/animals1.png-678482a3b37ae2dbafda087a6137d3d4.ctex"
+uid="uid://ovbdcf7kf8n5"
+path="res://.godot/imported/lightsphere.webp-fdccdb358faedfc7ee98223b06703d4b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Animals/animals1.png"
-dest_files=["res://.godot/imported/animals1.png-678482a3b37ae2dbafda087a6137d3d4.ctex"]
+source_file="res://Scripts/lightsphere.webp"
+dest_files=["res://.godot/imported/lightsphere.webp-fdccdb358faedfc7ee98223b06703d4b.ctex"]
 
 [params]
 

@@ -1,6 +1,6 @@
-[gd_scene load_steps=16 format=3 uid="uid://m2jnvm38jltm"]
+[gd_scene load_steps=17 format=3 uid="uid://m2jnvm38jltm"]
 
-[ext_resource type="Texture2D" uid="uid://b4j8hgftefxtg" path="res://Assets/sprites/Animals/animals5.png" id="1_y74gi"]
+[ext_resource type="Texture2D" uid="uid://b4j8hgftefxtg" path="res://Assets/Sprites/Animals/animals5.png" id="1_y74gi"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_y3bjw"]
 radius = 27.0
@@ -113,6 +113,10 @@ animations = [{
 "speed": 6.0
 }]
 
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_fvjpb"]
+cull_mode = 1
+polygon = PackedVector2Array(-27, -49, 24, -49, 24, 16, -22, 17)
+
 [node name="Node2D" type="Node2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -123,3 +127,6 @@ shape = SubResource("CapsuleShape2D_y3bjw")
 sprite_frames = SubResource("SpriteFrames_xwaj8")
 animation = &"down"
 frame_progress = 0.32044
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+occluder = SubResource("OccluderPolygon2D_fvjpb")

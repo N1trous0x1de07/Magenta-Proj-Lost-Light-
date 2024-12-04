@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmem34hwwk8ty"
-path="res://.godot/imported/Bald Man.png-a7d0cdd0e1764b09d9abb4b082e38cf9.ctex"
+path="res://.godot/imported/Bald Man.png-01f9e13863e8ac759f5a9cdc0345e0b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Bald Man.png"
-dest_files=["res://.godot/imported/Bald Man.png-a7d0cdd0e1764b09d9abb4b082e38cf9.ctex"]
+source_file="res://Assets/Sprites/Bald Man.png"
+dest_files=["res://.godot/imported/Bald Man.png-01f9e13863e8ac759f5a9cdc0345e0b1.ctex"]
 
 [params]
 

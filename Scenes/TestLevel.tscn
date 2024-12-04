@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=4 uid="uid://dj6ie2coowifs"]
+[gd_scene load_steps=22 format=4 uid="uid://dmqwb00qm4v6o"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_v1164"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_e5c5i"]
@@ -11,7 +11,6 @@
 [ext_resource type="Texture2D" uid="uid://bt6td0ij03766" path="res://Assets/SnowTileset/Fire Animations/Fire 6/Fire whit snow.png" id="9_44jqk"]
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/MainCharacter.tscn" id="10_7mgvd"]
 [ext_resource type="AudioStream" uid="uid://cr7g0u1hyuqxn" path="res://Assets/Audio&SFX/abandoned_mp3_1.2/Dawn - slow - scary.mp3" id="11_4dlru"]
-[ext_resource type="PackedScene" uid="uid://duo00rmppx2b1" path="res://Scenes/Old Man NPC.tscn" id="12_iv725"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wst38"]
 resource_name = "Land/Water"
@@ -646,7 +645,6 @@ tile_map_data = PackedByteArray("AAARAAcAAAABAAQAAAARAAYAAAABAAQAAAARAAUAAAABAAQ
 tile_set = SubResource("TileSet_cqohc")
 
 [node name="MainCharacter" parent="." instance=ExtResource("10_7mgvd")]
-z_index = 2
 position = Vector2(468, -199)
 scale = Vector2(0.5, 0.5)
 
@@ -660,5 +658,5 @@ autoplay = true
 
 [node name="Node2D" type="Node2D" parent="."]
 
-[node name="Old Man NPC" parent="." instance=ExtResource("12_iv725")]
-position = Vector2(537, -266)
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.0885599, 0.0885599, 0.0885599, 1)

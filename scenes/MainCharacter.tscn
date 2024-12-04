@@ -1,7 +1,8 @@
-[gd_scene load_steps=18 format=3 uid="uid://dxmg1rrq1xpvs"]
+[gd_scene load_steps=19 format=3 uid="uid://dxmg1rrq1xpvs"]
 
 [ext_resource type="Script" path="res://Scripts/character_body_2d.gd" id="1_it1sc"]
-[ext_resource type="Texture2D" uid="uid://c7hwruls2nyiy" path="res://Assets/sprites/peopleA1.png" id="2_5qs6j"]
+[ext_resource type="Texture2D" uid="uid://c7hwruls2nyiy" path="res://Assets/Sprites/peopleA1.png" id="2_5qs6j"]
+[ext_resource type="Texture2D" uid="uid://ovbdcf7kf8n5" path="res://Scripts/lightsphere.webp" id="3_egnvy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bnijy"]
 atlas = ExtResource("2_5qs6j")
@@ -138,3 +139,6 @@ animation = &"idle"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 1)
 shape = SubResource("CapsuleShape2D_165t8")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+texture = ExtResource("3_egnvy")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=4 uid="uid://dmqwb00qm4v6o"]
+[gd_scene load_steps=24 format=4 uid="uid://dmqwb00qm4v6o"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_v1164"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_e5c5i"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://54hrgkbv3w6g" path="res://Scenes/MainCharacter.tscn" id="10_7mgvd"]
 [ext_resource type="AudioStream" uid="uid://cr7g0u1hyuqxn" path="res://Assets/Audio&SFX/abandoned_mp3_1.2/Dawn - slow - scary.mp3" id="11_4dlru"]
 [ext_resource type="PackedScene" uid="uid://djpy3207iicsf" path="res://Scenes/carParts/gasCan.tscn" id="12_j5nsr"]
+[ext_resource type="PackedScene" uid="uid://pwtbg6npo23m" path="res://Scenes/carParts/CarBattery.tscn" id="13_g0vjn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wst38"]
 resource_name = "Land/Water"
@@ -662,3 +663,6 @@ autoplay = true
 
 [node name="GasCan" parent="." instance=ExtResource("12_j5nsr")]
 position = Vector2(474, -114)
+
+[node name="CarBattery" parent="." instance=ExtResource("13_g0vjn")]
+position = Vector2(442, -191)

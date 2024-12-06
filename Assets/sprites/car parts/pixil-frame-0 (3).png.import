@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ovbdcf7kf8n5"
-path="res://.godot/imported/lightsphere.webp-fdccdb358faedfc7ee98223b06703d4b.ctex"
+uid="uid://be065k8q5dse8"
+path="res://.godot/imported/pixil-frame-0 (3).png-0dd00be1921f05d19c08e1b78c812dd3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scripts/lightsphere.webp"
-dest_files=["res://.godot/imported/lightsphere.webp-fdccdb358faedfc7ee98223b06703d4b.ctex"]
+source_file="res://Assets/sprites/car parts/pixil-frame-0 (3).png"
+dest_files=["res://.godot/imported/pixil-frame-0 (3).png-0dd00be1921f05d19c08e1b78c812dd3.ctex"]
 
 [params]
 

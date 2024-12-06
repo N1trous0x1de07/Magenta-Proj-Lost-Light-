@@ -133,6 +133,7 @@ scale = Vector2(0.8, 0.8)
 script = ExtResource("1_it1sc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+light_mask = 3
 scale = Vector2(0.8, 0.8)
 sprite_frames = SubResource("SpriteFrames_yao6y")
 animation = &"idle"
@@ -144,6 +145,7 @@ shape = SubResource("CapsuleShape2D_165t8")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 scale = Vector2(0.8, 0.8)
+energy = 0.5
 shadow_enabled = true
 texture = ExtResource("3_egnvy")
 

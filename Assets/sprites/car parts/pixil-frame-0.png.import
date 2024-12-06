@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://coow5g2n4d8xu"
-path="res://.godot/imported/birds1.png-e838f705750249aa123d505d546dbdc6.ctex"
+uid="uid://bqjhc6sx50m7o"
+path="res://.godot/imported/pixil-frame-0.png-db697757008a6c6fddc4e7dea0374298.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Animals/birds1.png"
-dest_files=["res://.godot/imported/birds1.png-e838f705750249aa123d505d546dbdc6.ctex"]
+source_file="res://Assets/sprites/car parts/pixil-frame-0.png"
+dest_files=["res://.godot/imported/pixil-frame-0.png-db697757008a6c6fddc4e7dea0374298.ctex"]
 
 [params]
 

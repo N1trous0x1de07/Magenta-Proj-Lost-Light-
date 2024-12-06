@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://ce2fn81o7lxt6"]
+
+[ext_resource type="Texture2D" uid="uid://be065k8q5dse8" path="res://Assets/sprites/car parts/pixil-frame-0 (3).png" id="1_t6iip"]
+[ext_resource type="Script" path="res://Scripts/tire.gd" id="1_xebq1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1rdkr"]
+radius = 20.0
+
+[node name="Tire" type="Area2D"]
+script = ExtResource("1_xebq1")
+
+[node name="Pixil-frame-0(3)" type="Sprite2D" parent="."]
+position = Vector2(-1, -10)
+texture = ExtResource("1_t6iip")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -1)
+shape = SubResource("CircleShape2D_1rdkr")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

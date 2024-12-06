@@ -4,6 +4,8 @@ class_name Player
 const SPEED = 100
 
 @onready var sprite : AnimatedSprite2D = $AnimatedSprite2D
+var sanity = 100
+@export var inside_light = false
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -27,6 +29,7 @@ func _physics_process(delta: float) -> void:
 	set_direction()
 
 	move_and_slide()
+	
 
 	
 
@@ -47,3 +50,8 @@ func set_direction():
 	
 	else:
 		sprite.play("idle")  # Play "idle" animation when no buttons are pressed
+		
+		
+		
+	#Sanity stuff
+	 

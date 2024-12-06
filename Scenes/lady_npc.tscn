@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://di0k6y7twnc0r"]
+
+[ext_resource type="Script" path="res://Scenes/lady_npc.gd" id="1_2o6dw"]
+[ext_resource type="Texture2D" uid="uid://dkl1pdeno3v63" path="res://Assets/sprites/NPC folder/Woman 2.png" id="1_f48jh"]
+[ext_resource type="PackedScene" uid="uid://oesabk4yp0eb" path="res://Dialogue/lady_d.tscn" id="2_sf0ct"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rsalh"]
+size = Vector2(13, 26)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pkpb1"]
+size = Vector2(28.5, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yefcg"]
+atlas = ExtResource("1_f48jh")
+region = Rect2(46, 0, 39, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_w5shn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yefcg")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Lady NPC" type="CharacterBody2D"]
+script = ExtResource("1_2o6dw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(95, -17)
+shape = SubResource("RectangleShape2D_rsalh")
+
+[node name="chat_detection" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection"]
+position = Vector2(94.75, -14.5)
+shape = SubResource("RectangleShape2D_pkpb1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(94, -17)
+scale = Vector2(0.428323, 0.34716)
+sprite_frames = SubResource("SpriteFrames_w5shn")
+animation = &"idle"
+
+[node name="Lady_D" parent="." instance=ExtResource("2_sf0ct")]
+offset_left = 68.0
+offset_top = -47.0
+offset_right = 68.0
+offset_bottom = -47.0
+
+[connection signal="body_entered" from="chat_detection" to="." method="_on_chat_detection_body_entered"]
+[connection signal="body_exited" from="chat_detection" to="." method="_on_chat_detection_body_exited"]

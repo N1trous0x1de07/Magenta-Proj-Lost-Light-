@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://blcxiw1tff24y"]
+
+[ext_resource type="Script" path="res://Dialogue/camper_d.gd" id="1_va50y"]
+
+[node name="Camper_D" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_va50y")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 265.0
+offset_bottom = 75.0
+scale = Vector2(0.2, 0.2)
+text = "Come to the campfire. It makes you feel a lot better instead of sitting out in the freezing cold."
+autowrap_mode = 2

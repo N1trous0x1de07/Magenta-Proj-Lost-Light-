@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://d34wdj4timu0m"]
+
+[ext_resource type="Script" path="res://Scripts/area_2d.gd" id="1_6fktx"]
+[ext_resource type="Texture2D" uid="uid://dnieubc4neyj3" path="res://Assets/sprites/car parts/pixil-frame-0 (2).png" id="2_3geyd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2iaps"]
+size = Vector2(62, 29)
+
+[node name="FuseBox" type="Area2D"]
+scale = Vector2(0.25, 0.25)
+script = ExtResource("1_6fktx")
+
+[node name="Pixil-frame-0(2)" type="Sprite2D" parent="."]
+texture = ExtResource("2_3geyd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2.5)
+shape = SubResource("RectangleShape2D_2iaps")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

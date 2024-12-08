@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://be065k8q5dse8"
-path="res://.godot/imported/pixil-frame-0 (3).png-5279da65ab871158cb3761b42a3a2b2f.ctex"
+uid="uid://cyw8fcnq8j3qt"
+path="res://.godot/imported/light_radius.webp-ac89d6529f566042c0e727a26b0cc102.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/car parts/pixil-frame-0 (3).png"
-dest_files=["res://.godot/imported/pixil-frame-0 (3).png-5279da65ab871158cb3761b42a3a2b2f.ctex"]
+source_file="res://Assets/Sprites/light_radius.webp"
+dest_files=["res://.godot/imported/light_radius.webp-ac89d6529f566042c0e727a26b0cc102.ctex"]
 
 [params]
 

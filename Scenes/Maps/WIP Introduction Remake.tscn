@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://ic2knkffamh1"]
+[gd_scene load_steps=25 format=4 uid="uid://ic2knkffamh1"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_wkwvr"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_n0m48"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/Entities/Character and NPC/MainCharacter.tscn" id="10_l36vk"]
 [ext_resource type="PackedScene" uid="uid://ca4x7i2kmf6my" path="res://Scenes/light_sources/campfire.tscn" id="10_wp1gg"]
 [ext_resource type="PackedScene" uid="uid://dav146qqmbtll" path="res://Scenes/light_sources/torch.tscn" id="11_hgvu8"]
+[ext_resource type="PackedScene" uid="uid://8dy75edp07kp" path="res://Scenes/carParts/truck.tscn" id="13_ljjrq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -776,3 +777,6 @@ tile_set = SubResource("TileSet_ajiac")
 [node name="MainCharacter" parent="." instance=ExtResource("10_l36vk")]
 position = Vector2(233, -38)
 scale = Vector2(0.45, 0.45)
+
+[node name="Truck" parent="." instance=ExtResource("13_ljjrq")]
+position = Vector2(169, -45)

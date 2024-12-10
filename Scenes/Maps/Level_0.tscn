@@ -775,8 +775,9 @@ tile_map_data = PackedByteArray("AAASAAoAAAACAA4AAAASAAkAAAACAA0AAAASAAgAAAACAA0
 tile_set = SubResource("TileSet_ajiac")
 
 [node name="MainCharacter" parent="." instance=ExtResource("12_qwscc")]
-position = Vector2(233, -38)
+position = Vector2(-257, -364)
 scale = Vector2(0.45, 0.45)
 
-[node name="Next Level" parent="." instance=ExtResource("13_k8t2x")]
-position = Vector2(256, 367)
+[node name="To_Next_Level" parent="." instance=ExtResource("13_k8t2x")]
+position = Vector2(258, 372)
+level_to_load = 1

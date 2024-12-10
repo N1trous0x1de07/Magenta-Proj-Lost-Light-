@@ -774,5 +774,5 @@ tile_map_data = PackedByteArray("AADn/xcAAAABAAQAAADn/xYAAAABAAQAAADn/xUAAAABAAQ
 tile_set = SubResource("TileSet_ajiac")
 
 [node name="MainCharacter" parent="." instance=ExtResource("12_wyp4r")]
-position = Vector2(-449, -369)
+position = Vector2(-448, -341)
 scale = Vector2(0.45, 0.45)

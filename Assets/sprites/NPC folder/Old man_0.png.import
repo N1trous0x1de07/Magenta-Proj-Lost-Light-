@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xdou37p46qhg"
-path="res://.godot/imported/Old man_0.png-36ae273d514354aa6bba6305ac7a192d.ctex"
+uid="uid://coxmgqq1eogi5"
+path="res://.godot/imported/Old man_0.png-2d34308c2848bd542c4a6442a57159bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/NPC folder/Old man_0.png"
-dest_files=["res://.godot/imported/Old man_0.png-36ae273d514354aa6bba6305ac7a192d.ctex"]
+source_file="res://Assets/Sprites/NPC folder/Old man_0.png"
+dest_files=["res://.godot/imported/Old man_0.png-2d34308c2848bd542c4a6442a57159bb.ctex"]
 
 [params]
 

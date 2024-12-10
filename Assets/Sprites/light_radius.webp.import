@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkl1pdeno3v63"
-path="res://.godot/imported/Woman 2.png-340e2cd4520b88fed9854a952fe09422.ctex"
+uid="uid://cyw8fcnq8j3qt"
+path="res://.godot/imported/light_radius.webp-ac89d6529f566042c0e727a26b0cc102.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/NPC folder/Woman 2.png"
-dest_files=["res://.godot/imported/Woman 2.png-340e2cd4520b88fed9854a952fe09422.ctex"]
+source_file="res://Assets/Sprites/light_radius.webp"
+dest_files=["res://.godot/imported/light_radius.webp-ac89d6529f566042c0e727a26b0cc102.ctex"]
 
 [params]
 

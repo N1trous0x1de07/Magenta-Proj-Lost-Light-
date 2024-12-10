@@ -1,7 +1,9 @@
 extends CharacterBody2D
 class_name Player
 
-const SPEED = 100
+var normal_speed = 100
+var slowed_speed = 50
+var current_speed = normal_speed
 
 @onready var sprite : AnimatedSprite2D = $AnimatedSprite2D
 
@@ -16,21 +18,25 @@ func _physics_process(delta: float) -> void:
 	var direction := Input.get_axis("left", "right")
 	var updown := Input.get_axis("up","down")
 	if direction:
-		velocity.x = direction * SPEED
+		velocity.x = direction * current_speed
 	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
+		velocity.x = move_toward(velocity.x, 0, current_speed)
 	if updown:
-		velocity.y = updown * SPEED
+		velocity.y = updown * current_speed
 	else:
-		velocity.y = move_toward(velocity.y,0,SPEED)
+		velocity.y = move_toward(velocity.y,0,current_speed)
 
 	set_direction()
 
 	move_and_slide()
 
+func slow_down():
+	current_speed = slowed_speed
 	
-
-
+	
+func speed_up():
+	current_speed = normal_speed
+	
 
 func set_direction():
 	if Input.is_action_pressed("left"):

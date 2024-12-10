@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://dywjfqmxtj6gh"]
+
+[ext_resource type="Script" path="res://Assets/sprites/thorn_bush.gd" id="1_68377"]
+[ext_resource type="Texture2D" uid="uid://i473tu1hxo71" path="res://Assets/sprites/thorn bush.png" id="2_j2n1o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ffj2"]
+atlas = ExtResource("2_j2n1o")
+region = Rect2(0, 0, 80, 80)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sfol8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ffj2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ipg87"]
+radius = 14.0
+
+[node name="Thorn Bush" type="CharacterBody2D"]
+script = ExtResource("1_68377")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1.25, -5.25)
+scale = Vector2(0.45625, 0.51875)
+sprite_frames = SubResource("SpriteFrames_sfol8")
+
+[node name="thorn_detection" type="Area2D" parent="."]
+position = Vector2(44, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="thorn_detection"]
+position = Vector2(-40, -4)
+shape = SubResource("CircleShape2D_ipg87")
+
+[connection signal="body_entered" from="thorn_detection" to="." method="_on_thorn_detection_body_entered"]
+[connection signal="body_exited" from="thorn_detection" to="." method="_on_thorn_detection_body_exited"]

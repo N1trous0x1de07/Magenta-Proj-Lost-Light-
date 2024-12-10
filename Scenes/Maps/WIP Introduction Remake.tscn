@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://ic2knkffamh1"]
+[gd_scene load_steps=24 format=4 uid="uid://ic2knkffamh1"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_wkwvr"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_n0m48"]
@@ -9,7 +9,9 @@
 [ext_resource type="Texture2D" uid="uid://c8qw2jj73m0et" path="res://Assets/SnowTileset/Fire Animations/Fire 4/Fire whit snow.png" id="7_81sfs"]
 [ext_resource type="Texture2D" uid="uid://b0oc2jij7cpjc" path="res://Assets/SnowTileset/Fire Animations/Fire 5/Fire whit snow.png" id="8_0jn8i"]
 [ext_resource type="Texture2D" uid="uid://bt6td0ij03766" path="res://Assets/SnowTileset/Fire Animations/Fire 6/Fire whit snow.png" id="9_btjd7"]
-[ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/entities/Character and NPC/MainCharacter.tscn" id="10_l36vk"]
+[ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/Entities/Character and NPC/MainCharacter.tscn" id="10_l36vk"]
+[ext_resource type="PackedScene" uid="uid://dywjfqmxtj6gh" path="res://Assets/sprites/thorn_bush.tscn" id="11_uw1ov"]
+[ext_resource type="PackedScene" uid="uid://db1es3ep2dj34" path="res://Assets/sprites/trash_can.tscn" id="12_c13ul"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -775,3 +777,9 @@ color = Color(0.125911, 0.125911, 0.125911, 1)
 [node name="MainCharacter" parent="." instance=ExtResource("10_l36vk")]
 position = Vector2(233, -38)
 scale = Vector2(0.45, 0.45)
+
+[node name="Thorn Bush" parent="." instance=ExtResource("11_uw1ov")]
+position = Vector2(27, -37)
+
+[node name="Trash_Can" parent="." instance=ExtResource("12_c13ul")]
+position = Vector2(-112, -38)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://da6qhmhwee2pd"]
+[gd_scene load_steps=25 format=4 uid="uid://da6qhmhwee2pd"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_41cmq"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_mlrar"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://ca4x7i2kmf6my" path="res://Scenes/light_sources/campfire.tscn" id="10_u2l0s"]
 [ext_resource type="PackedScene" uid="uid://dav146qqmbtll" path="res://Scenes/light_sources/torch.tscn" id="11_iaev1"]
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/Entities/Character and NPC/MainCharacter.tscn" id="12_wyp4r"]
+[ext_resource type="PackedScene" uid="uid://crwei0s38snnm" path="res://Scenes/Maps/Level switch/next_level_trigger.tscn" id="13_6edf6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -776,3 +777,15 @@ tile_set = SubResource("TileSet_ajiac")
 [node name="MainCharacter" parent="." instance=ExtResource("12_wyp4r")]
 position = Vector2(-448, -341)
 scale = Vector2(0.45, 0.45)
+
+[node name="Back" parent="." instance=ExtResource("13_6edf6")]
+position = Vector2(-448, -367)
+level_to_load = 0
+
+[node name="To_level_two" parent="." instance=ExtResource("13_6edf6")]
+position = Vector2(240, -370)
+level_to_load = 2
+
+[node name="To_Level_opt" parent="." instance=ExtResource("13_6edf6")]
+position = Vector2(483, 273)
+level_to_load = 7

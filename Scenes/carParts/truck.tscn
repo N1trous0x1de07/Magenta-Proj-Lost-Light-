@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://8dy75edp07kp"]
 
 [ext_resource type="Texture2D" uid="uid://rseonrckfdy" path="res://Assets/sprites/car parts/pixil-frame-0 (4).png" id="1_6bt8i"]
-[ext_resource type="Script" path="res://Scenes/carParts/truck.gd" id="1_ub0st"]
+[ext_resource type="Script" path="res://Scripts/CarParts/truck.gd" id="1_ub0st"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l506a"]
 size = Vector2(42, 19)

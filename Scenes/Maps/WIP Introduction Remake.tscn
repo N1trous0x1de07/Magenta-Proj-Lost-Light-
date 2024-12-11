@@ -780,3 +780,5 @@ scale = Vector2(0.45, 0.45)
 
 [node name="Truck" parent="." instance=ExtResource("13_ljjrq")]
 position = Vector2(82, -78)
+
+[node name="GameController" type="Node2D" parent="."]

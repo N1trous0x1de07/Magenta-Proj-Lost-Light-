@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://dai2n1ckaoxx5"]
 
-[ext_resource type="Texture2D" uid="uid://dhgxdxx887wbh" path="res://Assets/sprites/NPC folder/Bald Man.png" id="1_6pbes"]
+[ext_resource type="Texture2D" uid="uid://dhgxdxx887wbh" path="res://Assets/Sprites/NPC folder/Bald Man.png" id="1_6pbes"]
 [ext_resource type="PackedScene" uid="uid://cf0fm8ornquw0" path="res://Dialogue/bald_man_d.tscn" id="2_htd6l"]
 
 [sub_resource type="GDScript" id="GDScript_3co1c"]

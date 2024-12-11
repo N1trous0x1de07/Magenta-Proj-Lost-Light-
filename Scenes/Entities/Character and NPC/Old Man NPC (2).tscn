@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://gn42uri2pmqk"]
 
-[ext_resource type="Texture2D" uid="uid://coxmgqq1eogi5" path="res://Assets/sprites/NPC folder/Old man_0.png" id="1_csgg6"]
+[ext_resource type="Texture2D" uid="uid://coxmgqq1eogi5" path="res://Assets/Sprites/NPC folder/Old man_0.png" id="1_csgg6"]
 [ext_resource type="Script" path="res://Scripts/old_man_npc.gd" id="1_si5ip"]
 [ext_resource type="PackedScene" uid="uid://bmxrek4qpcxpk" path="res://Dialogue/dialogue.tscn" id="3_6cehv"]
 

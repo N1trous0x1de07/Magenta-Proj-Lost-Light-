@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://dav146qqmbtll" path="res://Scenes/light_sources/torch.tscn" id="11_hgvu8"]
 [ext_resource type="PackedScene" uid="uid://dywjfqmxtj6gh" path="res://Assets/sprites/thorn_bush.tscn" id="11_uw1ov"]
 [ext_resource type="PackedScene" uid="uid://db1es3ep2dj34" path="res://Assets/sprites/trash_can.tscn" id="12_c13ul"]
+[ext_resource type="PackedScene" uid="uid://b6jkrhjk16bot" path="res://Assets/sprites/speed_orb.tscn" id="15_6m8d8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -788,3 +789,6 @@ position = Vector2(27, -37)
 
 [node name="Trash_Can" parent="." instance=ExtResource("12_c13ul")]
 position = Vector2(-112, -38)
+
+[node name="Speed Orb" parent="." instance=ExtResource("15_6m8d8")]
+position = Vector2(141, -38)

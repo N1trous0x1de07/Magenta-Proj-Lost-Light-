@@ -19,7 +19,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ipg87"]
-radius = 14.0
+radius = 62.895
 
 [node name="Thorn Bush" type="CharacterBody2D"]
 scale = Vector2(0.56, 0.56)

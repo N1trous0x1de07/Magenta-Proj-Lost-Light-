@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://pwtbg6npo23m"]
 
-[ext_resource type="Script" path="res://Scripts/area_2d.gd" id="1_7qugi"]
+[ext_resource type="Script" path="res://Scripts/CarParts/CarBattery.gd" id="1_7qugi"]
 [ext_resource type="Texture2D" uid="uid://dvilop80ppxcm" path="res://Assets/sprites/car parts/pixil-frame-0 (1).png" id="2_vq2rs"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2icqx"]

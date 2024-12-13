@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=4 uid="uid://ic2knkffamh1"]
+[gd_scene load_steps=27 format=4 uid="uid://ic2knkffamh1"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_wkwvr"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_n0m48"]
@@ -780,6 +780,8 @@ tile_set = SubResource("TileSet_ajiac")
 [node name="MainCharacter" parent="." instance=ExtResource("10_l36vk")]
 position = Vector2(233, -38)
 scale = Vector2(0.45, 0.45)
+
+[node name="GameController" type="Node2D" parent="."]
 
 [node name="Thorn Bush" parent="." instance=ExtResource("11_uw1ov")]
 position = Vector2(27, -37)

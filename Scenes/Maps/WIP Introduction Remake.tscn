@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=4 uid="uid://ic2knkffamh1"]
+[gd_scene load_steps=27 format=4 uid="uid://ic2knkffamh1"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_wkwvr"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_n0m48"]
@@ -15,11 +15,6 @@
 [ext_resource type="PackedScene" uid="uid://dywjfqmxtj6gh" path="res://Assets/sprites/thorn_bush.tscn" id="11_uw1ov"]
 [ext_resource type="PackedScene" uid="uid://db1es3ep2dj34" path="res://Assets/sprites/trash_can.tscn" id="12_c13ul"]
 [ext_resource type="PackedScene" uid="uid://c30g3j8qqvfc8" path="res://Assets/sprites/speed_orb.tscn" id="15_74xdc"]
-[ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/entities/Character and NPC/MainCharacter.tscn" id="10_l36vk"]
-[ext_resource type="PackedScene" uid="uid://ca4x7i2kmf6my" path="res://Scenes/light_sources/campfire.tscn" id="10_wp1gg"]
-[ext_resource type="PackedScene" uid="uid://dav146qqmbtll" path="res://Scenes/light_sources/torch.tscn" id="11_hgvu8"]
-[ext_resource type="PackedScene" uid="uid://dywjfqmxtj6gh" path="res://Assets/Sprites/thorn_bush.tscn" id="11_uw1ov"]
-[ext_resource type="PackedScene" uid="uid://db1es3ep2dj34" path="res://Assets/Sprites/trash_can.tscn" id="12_c13ul"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -787,10 +782,8 @@ tile_set = SubResource("TileSet_ajiac")
 position = Vector2(233, -38)
 scale = Vector2(0.45, 0.45)
 
-[node name="Truck" parent="." instance=ExtResource("13_ljjrq")]
-position = Vector2(82, -78)
-
 [node name="GameController" type="Node2D" parent="."]
+
 [node name="Thorn Bush" parent="." instance=ExtResource("11_uw1ov")]
 position = Vector2(27, -37)
 

@@ -19,6 +19,9 @@
 [ext_resource type="PackedScene" uid="uid://dai2n1ckaoxx5" path="res://Scenes/Entities/Character and NPC/bald_man_npc.tscn" id="17_2m00d"]
 [ext_resource type="PackedScene" uid="uid://gn42uri2pmqk" path="res://Scenes/Entities/Character and NPC/Old Man NPC (2).tscn" id="18_nmisk"]
 [ext_resource type="PackedScene" uid="uid://di0k6y7twnc0r" path="res://Scenes/Entities/Character and NPC/lady_npc.tscn" id="19_8uu0a"]
+[ext_resource type="Texture2D" uid="uid://rseonrckfdy" path="res://Assets/sprites/car parts/pixil-frame-0 (4).png" id="14_gjfhh"]
+[ext_resource type="PackedScene" uid="uid://8dy75edp07kp" path="res://Scenes/carParts/truck.tscn" id="15_ryv3p"]
+[ext_resource type="PackedScene" uid="uid://pwtbg6npo23m" path="res://Scenes/carParts/CarBattery.tscn" id="16_ikqlg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -814,3 +817,12 @@ position = Vector2(-205, -126)
 
 [node name="Lady NPC" parent="." instance=ExtResource("19_8uu0a")]
 position = Vector2(128, -105)
+[node name="Pixil-frame-0(4)" type="Sprite2D" parent="."]
+position = Vector2(-250, -385)
+texture = ExtResource("14_gjfhh")
+
+[node name="Truck" parent="." instance=ExtResource("15_ryv3p")]
+position = Vector2(-183, -175)
+
+[node name="CarBattery" parent="." instance=ExtResource("16_ikqlg")]
+position = Vector2(-416, 314)

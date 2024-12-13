@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://8dy75edp07kp"]
+
+[ext_resource type="Texture2D" uid="uid://rseonrckfdy" path="res://Assets/sprites/car parts/pixil-frame-0 (4).png" id="1_6bt8i"]
+[ext_resource type="Script" path="res://Scripts/CarParts/truck.gd" id="1_ub0st"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l506a"]
+size = Vector2(42, 19)
+
+[node name="Truck" type="Area2D"]
+scale = Vector2(2, 2)
+script = ExtResource("1_ub0st")
+
+[node name="Pixil-frame-0(4)" type="Sprite2D" parent="."]
+z_index = 5
+position = Vector2(13, -3)
+texture = ExtResource("1_6bt8i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_l506a")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

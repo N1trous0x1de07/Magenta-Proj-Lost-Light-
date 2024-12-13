@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://coxmgqq1eogi5"
-path="res://.godot/imported/Old man_0.png-36ae273d514354aa6bba6305ac7a192d.ctex"
+uid="uid://cx1v2qstafyso"
+path="res://.godot/imported/speed orb.png-72ed16a7f1c38d9c7b1ba5d5bf1a53c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/NPC folder/Old man_0.png"
-dest_files=["res://.godot/imported/Old man_0.png-36ae273d514354aa6bba6305ac7a192d.ctex"]
+source_file="res://Assets/sprites/speed orb.png"
+dest_files=["res://.godot/imported/speed orb.png-72ed16a7f1c38d9c7b1ba5d5bf1a53c6.ctex"]
 
 [params]
 

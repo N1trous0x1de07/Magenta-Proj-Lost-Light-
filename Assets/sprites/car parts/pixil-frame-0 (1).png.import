@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvilop80ppxcm"
-path="res://.godot/imported/pixil-frame-0 (1).png-6e5805b690c93fc332dcad595b290920.ctex"
+path="res://.godot/imported/pixil-frame-0 (1).png-98e30df602ed6ec786809a1d64f023ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/car parts/pixil-frame-0 (1).png"
-dest_files=["res://.godot/imported/pixil-frame-0 (1).png-6e5805b690c93fc332dcad595b290920.ctex"]
+source_file="res://Assets/sprites/car parts/pixil-frame-0 (1).png"
+dest_files=["res://.godot/imported/pixil-frame-0 (1).png-98e30df602ed6ec786809a1d64f023ef.ctex"]
 
 [params]
 

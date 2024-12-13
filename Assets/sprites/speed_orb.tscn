@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c30g3j8qqvfc8"]
+
+[ext_resource type="Script" path="res://Assets/sprites/speed_orb.gd" id="1_o6i8d"]
+[ext_resource type="Texture2D" uid="uid://cx1v2qstafyso" path="res://Assets/sprites/speed orb.png" id="1_usxm5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kr213"]
+radius = 11.0
+
+[node name="Speed Orb" type="Area2D"]
+script = ExtResource("1_o6i8d")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.084, 0.074)
+texture = ExtResource("1_usxm5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_kr213")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

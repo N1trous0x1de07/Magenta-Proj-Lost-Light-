@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://di0k6y7twnc0r"]
 
 [ext_resource type="Script" path="res://Scenes/lady_npc.gd" id="1_2o6dw"]
-[ext_resource type="Texture2D" uid="uid://dkl1pdeno3v63" path="res://Assets/sprites/NPC folder/Woman 2.png" id="1_f48jh"]
+[ext_resource type="Texture2D" uid="uid://dkl1pdeno3v63" path="res://Assets/Sprites/NPC folder/Woman 2.png" id="1_f48jh"]
 [ext_resource type="PackedScene" uid="uid://oesabk4yp0eb" path="res://Dialogue/lady_d.tscn" id="2_sf0ct"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rsalh"]

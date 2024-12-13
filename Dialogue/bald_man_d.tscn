@@ -17,6 +17,6 @@ layout_mode = 0
 offset_right = 248.0
 offset_bottom = 75.0
 scale = Vector2(0.2, 0.2)
-text = "I think I saw a bear coming towards us. Be aware of where you walk."
+text = "Collect this orb to become faster. Though be aware of traps, because you only get this orb once"
 horizontal_alignment = 1
 autowrap_mode = 2

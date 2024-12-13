@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=4 uid="uid://ic2knkffamh1"]
+[gd_scene load_steps=31 format=4 uid="uid://ic2knkffamh1"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_0suqi"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_h67ih"]
@@ -13,6 +13,12 @@
 [ext_resource type="PackedScene" uid="uid://dav146qqmbtll" path="res://Scenes/light_sources/torch.tscn" id="11_volu0"]
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/Entities/Character and NPC/MainCharacter.tscn" id="12_qwscc"]
 [ext_resource type="PackedScene" uid="uid://crwei0s38snnm" path="res://Scenes/Maps/Level switch/next_level_trigger.tscn" id="13_k8t2x"]
+[ext_resource type="PackedScene" uid="uid://b6jkrhjk16bot" path="res://Assets/sprites/speed_orb.tscn" id="14_out8y"]
+[ext_resource type="PackedScene" uid="uid://dywjfqmxtj6gh" path="res://Assets/sprites/thorn_bush.tscn" id="15_pmia2"]
+[ext_resource type="PackedScene" uid="uid://db1es3ep2dj34" path="res://Assets/sprites/trash_can.tscn" id="16_43ho0"]
+[ext_resource type="PackedScene" uid="uid://dai2n1ckaoxx5" path="res://Scenes/Entities/Character and NPC/bald_man_npc.tscn" id="17_2m00d"]
+[ext_resource type="PackedScene" uid="uid://gn42uri2pmqk" path="res://Scenes/Entities/Character and NPC/Old Man NPC (2).tscn" id="18_nmisk"]
+[ext_resource type="PackedScene" uid="uid://di0k6y7twnc0r" path="res://Scenes/Entities/Character and NPC/lady_npc.tscn" id="19_8uu0a"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -781,3 +787,30 @@ scale = Vector2(0.45, 0.45)
 [node name="To_Next_Level" parent="." instance=ExtResource("13_k8t2x")]
 position = Vector2(258, 372)
 level_to_load = 1
+
+[node name="Speed Orb" parent="." instance=ExtResource("14_out8y")]
+position = Vector2(-390, 299)
+
+[node name="Thorn Bush" parent="." instance=ExtResource("15_pmia2")]
+position = Vector2(-455, 159)
+
+[node name="Thorn Bush2" parent="." instance=ExtResource("15_pmia2")]
+position = Vector2(-474, 159)
+
+[node name="Trash_Can" parent="." instance=ExtResource("16_43ho0")]
+position = Vector2(-289, -179)
+
+[node name="Thorn Bush3" parent="." instance=ExtResource("15_pmia2")]
+position = Vector2(-247, 90)
+
+[node name="Thorn Bush4" parent="." instance=ExtResource("15_pmia2")]
+position = Vector2(219, 91)
+
+[node name="Bald Man NPC" parent="." instance=ExtResource("17_2m00d")]
+position = Vector2(-458, 314)
+
+[node name="Old Man NPC" parent="." instance=ExtResource("18_nmisk")]
+position = Vector2(-205, -126)
+
+[node name="Lady NPC" parent="." instance=ExtResource("19_8uu0a")]
+position = Vector2(128, -105)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=4 uid="uid://da6qhmhwee2pd"]
+[gd_scene load_steps=29 format=4 uid="uid://da6qhmhwee2pd"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_41cmq"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_mlrar"]
@@ -13,6 +13,10 @@
 [ext_resource type="PackedScene" uid="uid://dav146qqmbtll" path="res://Scenes/light_sources/torch.tscn" id="11_iaev1"]
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/Entities/Character and NPC/MainCharacter.tscn" id="12_wyp4r"]
 [ext_resource type="PackedScene" uid="uid://crwei0s38snnm" path="res://Scenes/Maps/Level switch/next_level_trigger.tscn" id="13_6edf6"]
+[ext_resource type="PackedScene" uid="uid://bn35oxo1fxves" path="res://Scenes/Entities/Character and NPC/camper_npc.tscn" id="14_skkyi"]
+[ext_resource type="PackedScene" uid="uid://bkfi0uamifat3" path="res://Scenes/Entities/Character and NPC/Stranger NPC.tscn" id="15_cihkg"]
+[ext_resource type="PackedScene" uid="uid://dywjfqmxtj6gh" path="res://Assets/sprites/thorn_bush.tscn" id="16_x0n6p"]
+[ext_resource type="PackedScene" uid="uid://db1es3ep2dj34" path="res://Assets/sprites/trash_can.tscn" id="17_dseqy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -789,3 +793,21 @@ level_to_load = 2
 [node name="To_Level_opt" parent="." instance=ExtResource("13_6edf6")]
 position = Vector2(483, 273)
 level_to_load = 7
+
+[node name="Camper NPC" parent="." instance=ExtResource("14_skkyi")]
+position = Vector2(335, -290)
+
+[node name="Stranger NPC" parent="." instance=ExtResource("15_cihkg")]
+position = Vector2(215, -394)
+
+[node name="Thorn Bush" parent="." instance=ExtResource("16_x0n6p")]
+position = Vector2(46, -147)
+
+[node name="Thorn Bush2" parent="." instance=ExtResource("16_x0n6p")]
+position = Vector2(107, -322)
+
+[node name="Thorn Bush3" parent="." instance=ExtResource("16_x0n6p")]
+position = Vector2(84, -250)
+
+[node name="Trash_Can" parent="." instance=ExtResource("17_dseqy")]
+position = Vector2(-386, -328)

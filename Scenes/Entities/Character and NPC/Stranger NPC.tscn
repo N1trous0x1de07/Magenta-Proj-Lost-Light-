@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://26eyfitjwoef"]
+[gd_scene load_steps=8 format=3 uid="uid://bkfi0uamifat3"]
 
 [ext_resource type="Texture2D" uid="uid://4i1pdd2vao42" path="res://Assets/sprites/NPC folder/stranger.png" id="1_7hq1g"]
 [ext_resource type="Script" path="res://Dialogue/stranger_npc.gd" id="1_n7uk3"]

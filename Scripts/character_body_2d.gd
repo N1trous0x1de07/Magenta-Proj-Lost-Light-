@@ -3,6 +3,7 @@ class_name Player
 
 var normal_speed = 100
 var slowed_speed = 50
+var boosted_speed = 150
 var current_speed = normal_speed
 
 @onready var sprite : AnimatedSprite2D = $AnimatedSprite2D
@@ -36,6 +37,12 @@ func slow_down():
 	
 func speed_up():
 	current_speed = normal_speed
+	
+func boost_speed():
+	current_speed = boosted_speed
+	
+func _on_orb_collected():
+	boosted_speed
 	
 
 func set_direction():

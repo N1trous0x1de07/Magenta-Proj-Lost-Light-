@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=4 uid="uid://ic2knkffamh1"]
+[gd_scene load_steps=28 format=4 uid="uid://ic2knkffamh1"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_0suqi"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_h67ih"]
@@ -13,6 +13,9 @@
 [ext_resource type="PackedScene" uid="uid://dav146qqmbtll" path="res://Scenes/light_sources/torch.tscn" id="11_volu0"]
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/Entities/Character and NPC/MainCharacter.tscn" id="12_qwscc"]
 [ext_resource type="PackedScene" uid="uid://crwei0s38snnm" path="res://Scenes/Maps/Level switch/next_level_trigger.tscn" id="13_k8t2x"]
+[ext_resource type="Texture2D" uid="uid://rseonrckfdy" path="res://Assets/sprites/car parts/pixil-frame-0 (4).png" id="14_gjfhh"]
+[ext_resource type="PackedScene" uid="uid://8dy75edp07kp" path="res://Scenes/carParts/truck.tscn" id="15_ryv3p"]
+[ext_resource type="PackedScene" uid="uid://pwtbg6npo23m" path="res://Scenes/carParts/CarBattery.tscn" id="16_ikqlg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -781,3 +784,13 @@ scale = Vector2(0.45, 0.45)
 [node name="To_Next_Level" parent="." instance=ExtResource("13_k8t2x")]
 position = Vector2(258, 372)
 level_to_load = 1
+
+[node name="Pixil-frame-0(4)" type="Sprite2D" parent="."]
+position = Vector2(-250, -385)
+texture = ExtResource("14_gjfhh")
+
+[node name="Truck" parent="." instance=ExtResource("15_ryv3p")]
+position = Vector2(-183, -175)
+
+[node name="CarBattery" parent="." instance=ExtResource("16_ikqlg")]
+position = Vector2(-416, 314)

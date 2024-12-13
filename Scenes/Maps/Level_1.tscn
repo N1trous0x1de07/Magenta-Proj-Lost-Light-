@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=4 uid="uid://da6qhmhwee2pd"]
+[gd_scene load_steps=26 format=4 uid="uid://da6qhmhwee2pd"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_41cmq"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_mlrar"]
@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://dav146qqmbtll" path="res://Scenes/light_sources/torch.tscn" id="11_iaev1"]
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/Entities/Character and NPC/MainCharacter.tscn" id="12_wyp4r"]
 [ext_resource type="PackedScene" uid="uid://crwei0s38snnm" path="res://Scenes/Maps/Level switch/next_level_trigger.tscn" id="13_6edf6"]
+[ext_resource type="PackedScene" uid="uid://d34wdj4timu0m" path="res://Scenes/carParts/FuseBox.tscn" id="14_5qi6q"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gf4vi"]
 resource_name = "Land/Water"
@@ -789,3 +790,6 @@ level_to_load = 2
 [node name="To_Level_opt" parent="." instance=ExtResource("13_6edf6")]
 position = Vector2(483, 273)
 level_to_load = 7
+
+[node name="FuseBox" parent="." instance=ExtResource("14_5qi6q")]
+position = Vector2(381, -252)

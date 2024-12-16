@@ -16,5 +16,5 @@ layout_mode = 0
 offset_right = 265.0
 offset_bottom = 75.0
 scale = Vector2(0.2, 0.2)
-text = "Come to the campfire. It makes you feel a lot better instead of sitting out in the freezing cold."
+text = "Come sit by the campfire. You need to warm up or you'll end up freezing out there!"
 autowrap_mode = 2

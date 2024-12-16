@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://djpy3207iicsf"]
 
-[ext_resource type="Texture2D" uid="uid://bqjhc6sx50m7o" path="res://Assets/sprites/car parts/pixil-frame-0.png" id="1_2vrqc"]
+[ext_resource type="Texture2D" uid="uid://bqjhc6sx50m7o" path="res://Assets/Sprites/car parts/pixil-frame-0.png" id="1_2vrqc"]
 [ext_resource type="Script" path="res://Scripts/CarParts/gas_can.gd" id="1_22nb8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_77sel"]

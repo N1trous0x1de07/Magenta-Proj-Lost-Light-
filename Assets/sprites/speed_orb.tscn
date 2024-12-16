@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b6jkrhjk16bot"]
 
 [ext_resource type="Script" path="res://Assets/sprites/speed_orb.gd" id="1_o6i8d"]
-[ext_resource type="Texture2D" uid="uid://cx1v2qstafyso" path="res://Assets/sprites/speed orb.png" id="1_usxm5"]
+[ext_resource type="Texture2D" uid="uid://cx1v2qstafyso" path="res://Assets/Sprites/speed orb.png" id="1_usxm5"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_kr213"]
 radius = 7.0

@@ -17,5 +17,5 @@ layout_mode = 0
 offset_right = 220.0
 offset_bottom = 75.0
 scale = Vector2(0.2, 0.2)
-text = "Hello, there if my wife sent you out to look for me don't tell her I am here."
+text = "Hello there! If my wife sent you out to look for me, don't tell her I am here."
 autowrap_mode = 2

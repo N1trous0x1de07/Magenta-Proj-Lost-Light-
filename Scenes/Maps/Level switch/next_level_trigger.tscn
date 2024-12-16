@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cim5rb63b34oo" path="res://Assets/SnowTileset/Fire Animations/Fire 2/Fire whit snow.png" id="1_5bldo"]
 [ext_resource type="Script" path="res://Scripts/Level_Teleport.gd" id="1_s1uoy"]
-[ext_resource type="Texture2D" uid="uid://cyw8fcnq8j3qt" path="res://Assets/sprites/light_radius.webp" id="2_bhacn"]
+[ext_resource type="Texture2D" uid="uid://cyw8fcnq8j3qt" path="res://Assets/Sprites/light_radius.webp" id="2_bhacn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3dxuu"]
 atlas = ExtResource("1_5bldo")

@@ -17,6 +17,6 @@ layout_mode = 0
 offset_right = 248.0
 offset_bottom = 75.0
 scale = Vector2(0.2, 0.2)
-text = "Collect this orb to become faster. Though be aware of traps, because you only get this orb once"
+text = "Collect this orb to become faster. But it will only work in this area, and traps will disable it. Good luck!"
 horizontal_alignment = 1
 autowrap_mode = 2

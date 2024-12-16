@@ -52,4 +52,13 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_5vkib")
 theme_override_styles/normal = SubResource("StyleBoxFlat_5iuef")
 text = "Back"
 
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1243.0
+offset_top = 1.0
+offset_right = 1922.0
+offset_bottom = 60.0
+theme_override_font_sizes/font_size = 32
+text = "Press 'Z' to interact with teleport Campfires"
+
 [connection signal="pressed" from="BackButton" to="." method="_on_exit_button_pressed"]

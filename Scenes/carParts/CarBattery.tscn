@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://pwtbg6npo23m"]
 
 [ext_resource type="Script" path="res://Scripts/CarParts/CarBattery.gd" id="1_7qugi"]
-[ext_resource type="Texture2D" uid="uid://dvilop80ppxcm" path="res://Assets/sprites/car parts/pixil-frame-0 (1).png" id="2_vq2rs"]
+[ext_resource type="Texture2D" uid="uid://dvilop80ppxcm" path="res://Assets/Sprites/car parts/pixil-frame-0 (1).png" id="2_vq2rs"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2icqx"]
-size = Vector2(33, 45)
+size = Vector2(9, 12)
 
 [node name="CarBattery" type="Area2D"]
 script = ExtResource("1_7qugi")
@@ -15,7 +15,7 @@ scale = Vector2(0.25, 0.25)
 texture = ExtResource("2_vq2rs")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.5, -6.5)
+position = Vector2(0.5, -3)
 shape = SubResource("RectangleShape2D_2icqx")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

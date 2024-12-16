@@ -1,26 +1,14 @@
 [gd_scene load_steps=4 format=3 uid="uid://d34wdj4timu0m"]
 
-[ext_resource type="Texture2D" uid="uid://dnieubc4neyj3" path="res://Assets/sprites/car parts/pixil-frame-0 (2).png" id="2_3geyd"]
-
-[sub_resource type="GDScript" id="GDScript_m0c2c"]
-script/source = "extends Area2D
-
-# This function will be triggered when something enters the part's area
-func _on_body_entered(body):
-	if body.is_in_group(\"MainCharacter\"):  # Check if it's the player that collided with the part
-		queue_free()  # Remove the part from the scene
-		print(\"Part collected!\")  # Debug message
-		# Notify the GameController
-		var game_controller = get_tree().get_root().get_node(\"GameController\")
-		game_controller.on_part_collected()
-"
+[ext_resource type="Script" path="res://Scripts/CarParts/FuseBox.gd" id="1_to75b"]
+[ext_resource type="Texture2D" uid="uid://dnieubc4neyj3" path="res://Assets/Sprites/car parts/pixil-frame-0 (2).png" id="2_3geyd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2iaps"]
 size = Vector2(62, 29)
 
 [node name="FuseBox" type="Area2D"]
 scale = Vector2(0.25, 0.25)
-script = SubResource("GDScript_m0c2c")
+script = ExtResource("1_to75b")
 
 [node name="Pixil-frame-0(2)" type="Sprite2D" parent="."]
 texture = ExtResource("2_3geyd")

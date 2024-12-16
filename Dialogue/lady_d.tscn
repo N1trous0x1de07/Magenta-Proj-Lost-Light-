@@ -17,5 +17,5 @@ layout_mode = 0
 offset_right = 290.0
 offset_bottom = 101.0
 scale = Vector2(0.2, 0.2)
-text = "My husband was wondering around these parts, but he hasn't come back in a while. Can you help me find him?"
+text = "My husband was wandering around these parts, but he hasn't come back in a while. Can you help me find him?"
 autowrap_mode = 2

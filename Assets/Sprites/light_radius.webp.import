@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyw8fcnq8j3qt"
-path="res://.godot/imported/light_radius.webp-91b887080f643ec82fb27c4d170072bd.ctex"
+path="res://.godot/imported/light_radius.webp-ac89d6529f566042c0e727a26b0cc102.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/light_radius.webp"
-dest_files=["res://.godot/imported/light_radius.webp-91b887080f643ec82fb27c4d170072bd.ctex"]
+source_file="res://Assets/Sprites/light_radius.webp"
+dest_files=["res://.godot/imported/light_radius.webp-ac89d6529f566042c0e727a26b0cc102.ctex"]
 
 [params]
 

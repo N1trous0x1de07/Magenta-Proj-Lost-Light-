@@ -17,11 +17,11 @@ Completed Tasks:
 
 
 Roadblocks:
--none
+-There is no combat system or real enemies to be seen so progress is at a hard limit towards the end.
 
 Pivots:
--rlemke - had to update project description because students want to make projects that aren't school-appropriate
--rlemke - add more check-ins mid-project so students receive more feedback and opportunities for improvement
+-Whole team - Switch to doing anything for easy points since the project is a mess.
+-Mason - Switch from mapping to fixing everything wrong with the game along with mapping
 
 Concerns:
--rlemke - first time teaching this class, not sure if I'm forgetting anything
+-The whole team - We're definitely going to fail

@@ -1,9 +1,13 @@
 Asset Sources:
-
+https://opengameart.org/
+https://itch.io/
 
 
 Tutorials/References:
+Godot Docs,
+Youtube
 
 
 
 External Help:
+No external help

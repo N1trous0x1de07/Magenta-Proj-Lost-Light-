@@ -2,6 +2,9 @@ Completed Tasks:
 -Whole team - Got a somewhat solid idea of what we're doing
 -Graceson - got the GUi mostly working
 -Mason - got a test map going
+-Sol - got a moving main character working
+-Whole team - decided on sprites
+-Gwheatley - got some form of music/sfx working
 
 Roadblocks:
 -In terms of coding knowledge we are lacking heavily (Implementing things is difficult)

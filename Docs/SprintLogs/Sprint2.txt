@@ -1,0 +1,16 @@
+Completed Tasks:
+-Amardanzai - Got an NPC working and merged
+-Mason - Fixed the issues with the NPC and re-merged, Got more work done on mapping
+-Graceson - Cleaned up the GUI and got more things working.
+-Graceson - Patched the game to fix small issues that were popping up
+
+Roadblocks:
+-Once you start playing the game the music gets incredibly loud for no reason.
+
+Pivots:
+-We had to start implementing more NPCs to meet requirements
+-We removed the music from the gameplay because it was irreversibly broken
+-We decided to change how the layering of the maps was going to be done, and from there they were changed
+
+Concerns:
+-Whole team - features are taking far longer than we had hoped to implement and they're often broken.

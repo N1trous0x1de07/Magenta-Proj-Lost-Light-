@@ -1,0 +1,27 @@
+Completed Tasks:
+-Graceson - got the lighting system fully fleshed out and implemented into the game smoothly
+-Graceson - Got light sources put onto parts of the tilemap and made it easily accessible
+-Graceson - Cleaned things up that he hadn't bothered to polish
+-Aamir - Added environmental dangers
+-Aamir - Added even more NPC's with lots of dialogue to read and even some of them relating to eachother
+-Aamir - Added a speed orb into the game that boosts player speed 
+-Sol - Got the various car parts fully drawn and put into the files, tried to code them into the game, but it wasn't working
+-Sol - Got a rough inventory system laid out for polishing
+-Mason - Drew the rest of the maps
+-Mason - Added collisions to everything in the game
+-Mason - Polished the inventory system, and fixed broken code
+-Mason - Fixed the ending of the game/the truck, and created an actual endscreen + restart button
+-Mason - Added controls tooltips to the settings menu
+-Mason - Cleaned up how the game handles collectibles by creating a global variable to hold it all
+-Mason - Placed environmental dangers everywhere needed, created challenging puzzles, and the long walk was added
+
+
+Roadblocks:
+-none
+
+Pivots:
+-rlemke - had to update project description because students want to make projects that aren't school-appropriate
+-rlemke - add more check-ins mid-project so students receive more feedback and opportunities for improvement
+
+Concerns:
+-rlemke - first time teaching this class, not sure if I'm forgetting anything

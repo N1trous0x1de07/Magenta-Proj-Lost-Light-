@@ -27,3 +27,13 @@ Lost Light is a horror/exploration RPG game based in a magical snowy forest. You
 * GUI - The start menu gives you the option to start the game, open the settings menu and look at the controls tooltips, and exit the game. The endscreen gives the player the option to reset the game to play again or quit.
 * Magic - There are speed orbs in the game that you can collect to move at 1.5x the speed, and there are magical teleportation campfires that transfer you from area to area (Not all campfires do this).
 * Level Up/ Stats - The speed orb increases the player's speed stat, and it can be found in multiple locations around the game including the starter area.
+
+* ### Team member roles
+Mason - Mapping/Creative input, debugging and polishing. Made all of the maps for the game, polished the features and fixed everything needed.
+Graceson - Technicalities/Coding, also extra cosmetics. Made the GUI, made the lighting system, created the lighting objects, helped with the mapping process slightly. Also remade the marketing materials.
+Sol - Artist/Coding. Created the inventory system, drew all of the custom sprites for the game, and was helping to design the enemies before it was thrown on the backburner.
+Aamir - Interactable characters/Objects. Coded all of the NPCs into the game, created the interactable hazards, gathered lots of game art, helped with anything possible.
+Nick - Marketing materials/Emotional Support. Spent the entire length of the project lightening the mood occassionally and sitting on his phone. Made the first marketing cover for the game, but wasn't applicable.
+
+### Links to external files
+There are no links, its all in the repo.

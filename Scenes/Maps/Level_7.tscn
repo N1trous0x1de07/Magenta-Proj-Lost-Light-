@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=4 uid="uid://b2fq8ifvcsmy"]
+[gd_scene load_steps=31 format=4 uid="uid://b2fq8ifvcsmy"]
 
 [ext_resource type="Texture2D" uid="uid://nac8tffose8y" path="res://Assets/SnowTileset/Tileset 3.png" id="1_a1sgd"]
 [ext_resource type="Texture2D" uid="uid://dvjt20t1etx6o" path="res://Assets/SnowTileset/Tileset 2.png" id="2_rew3c"]
@@ -14,7 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://dxmg1rrq1xpvs" path="res://Scenes/Entities/Character and NPC/MainCharacter.tscn" id="12_baqsy"]
 [ext_resource type="PackedScene" uid="uid://crwei0s38snnm" path="res://Scenes/Maps/Level switch/next_level_trigger.tscn" id="13_mcrsq"]
 [ext_resource type="PackedScene" uid="uid://ce2fn81o7lxt6" path="res://Scenes/carParts/tire.tscn" id="14_uteru"]
-[ext_resource type="PackedScene" uid="uid://dywjfqmxtj6gh" path="res://Assets/Sprites/thorn_bush.tscn" id="16_6pwb7"]
+[ext_resource type="PackedScene" uid="uid://dywjfqmxtj6gh" path="res://Assets/sprites/thorn_bush.tscn" id="16_6pwb7"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_f1mjn"]
 
@@ -776,6 +776,15 @@ sources/7 = SubResource("TileSetAtlasSource_3dj6u")
 sources/8 = SubResource("TileSetAtlasSource_rmha7")
 sources/9 = SubResource("TileSetScenesCollectionSource_ivmx1")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lodgx"]
+size = Vector2(17, 871)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cntmn"]
+size = Vector2(16, 1120)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lg2j4"]
+size = Vector2(879, 20)
+
 [node name="Mapping Template" type="Node2D"]
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
@@ -828,3 +837,24 @@ position = Vector2(269, 401)
 
 [node name="Thorn Bush7" parent="." instance=ExtResource("16_6pwb7")]
 position = Vector2(271, 422)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(555.5, 3.5)
+shape = SubResource("RectangleShape2D_lodgx")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(3, 439)
+rotation = -1.5708
+shape = SubResource("RectangleShape2D_cntmn")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, -431)
+rotation = -1.5708
+shape = SubResource("RectangleShape2D_cntmn")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-553, 2.5)
+rotation = -1.5708
+shape = SubResource("RectangleShape2D_lg2j4")

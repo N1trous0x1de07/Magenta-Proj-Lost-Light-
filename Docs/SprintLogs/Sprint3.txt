@@ -1,0 +1,16 @@
+Completed Tasks:
+-Graceson - implemented the lighting system for the game and experimented with it further as well
+-Mason - merged the new map remake for the introduction for further testing, continued work on the rest
+-Amardanzai - Some of the dialogue was implemented
+-Solomon - Began the process of drawing sprites for further feature implementation
+
+Roadblocks:
+-The dialogue was really difficult for Aamir to get into the game and required a lot of teacher assistance
+-The sprites turned out to be more complex for Sol to make than he had thought
+-Graceson is stressed and dedicates himself slightly less to the game, but still gets quite a bit done
+
+Pivots:
+-Whole team - started following the rubric down to the specific requirements in hopes of improving chances for points
+
+Concerns:
+-whole team - we're all thinking this project is going downhill and we're running short on time
